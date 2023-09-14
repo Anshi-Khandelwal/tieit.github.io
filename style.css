@@ -1,0 +1,105 @@
+body{
+  margin : 0;
+}
+header img{
+  position: relative;
+  margin-left:  50%;;
+  margin-right:  50%;;
+  margin-top: -500px;
+}
+.right{
+  float: right;
+  margin-top: -80px;
+  margin-right: 20px;
+}
+.button-text{
+  background-color: grey;
+  text-decoration: none;
+  border-radius: 8px ;
+  padding: 16px 16px;
+  border:none;
+  outline:none;
+  cursor: pointer;
+}
+nav{
+  padding: 24px;
+  background-color: white;
+  opacity: 1;
+  position: fixed;
+  top:0;
+}
+.menu-item
+{
+  font-size: 24px;
+  margin-right: 24px;
+  color: gray;
+  text-decoration: none
+}
+.gallery {
+
+    text-align: center;
+    color: white;
+}
+.gallery video{
+  width:100%;
+  height:100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  background-color: white;
+  opacity: 0.6;
+}
+.container img{
+padding: 25px;
+width: 500px;
+height: 500px;
+}
+
+.container {
+    display: flex;
+    background-color:rgb(246, 238, 246);
+    align-items: center;
+}
+.text{
+  font-size: 20px;
+  padding:20px;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid red ;
+}
+.vendors img{
+  width:600px;
+  height:500px;
+  padding:20px;
+}
+.vendors{
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  background-color: bisque;
+}
+.vendor-text{
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+  border: 1px solid black;opacity: 0.8;
+  background-color: pink;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+footer a{
+  color:white;
+}
+a:hover{
+  color: yellowgreen;
+}

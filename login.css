@@ -1,0 +1,70 @@
+body{
+margin:0;
+} 
+header img{
+    position: relative;
+    margin-left:  50%;;
+    margin-right:  50%;;
+    margin-top: -500px;
+  }
+  .right{
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+  }
+  .button-text{
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 8px ;
+    padding: 16px 16px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+  }
+  nav{
+    padding: 24px;
+    background-color: white;
+    opacity: 1;
+    position: fixed;
+    top:0;
+  }
+  .menu-item
+  {
+    font-size: 24px;
+    margin-right: 24px;
+    color: gray;
+    text-decoration: none
+  }
+  .full-image img{
+    width:100%;
+    height:100%
+  }
+.box
+  {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0.6;
+  }
+  input[type=text], input[type=password] {
+    width:100%;
+    padding: 15px;
+    margin: 5px 0 24px 0;
+    border: none;
+    box-sizing: border-box;
+    background: #f1f1f1;
+  }
+  
+  .login-button{
+    background-color: #04AA6D;
+    color: white;
+    padding:2px 2px; 
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    
+}

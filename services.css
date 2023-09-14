@@ -1,0 +1,58 @@
+body{
+    margin : 0;
+    background-image: url('./destination.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header img{
+    position: relative;
+    margin-left:  50%;;
+    margin-right:  50%;;
+    margin-top: -500px;
+  }
+  .right{
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+  }
+  .button-text{
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 8px ;
+    padding: 16px 16px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+  }
+  nav{
+    padding: 24px;
+    background-color: white;
+    opacity: 1;
+    position: fixed;
+    top:0;
+  }
+  .menu-item
+  {
+    font-size: 24px;
+    margin-right: 24px;
+    color: gray;
+    text-decoration: none
+  }
+
+  table, th, td{
+    border: 1px solid black ;
+  }
+  .table-text{
+    background-color: aliceblue;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  
+  
